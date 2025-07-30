@@ -95,7 +95,7 @@ export function TestimonialsSection() {
             What Our Clients Say
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Don't just take our word for it. Here's what industry leaders say about their experience working with Zenith
+            Don&apos;t just take our word for it. Here&apos;s what industry leaders say about their experience working with Zenith
             Digital Solution.
           </p>
         </div>

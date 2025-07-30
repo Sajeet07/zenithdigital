@@ -1,6 +1,5 @@
 "use client"
 
-import { useState } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "zenith/components/ui/card"
 import { Badge } from "zenith/components/ui/badge"
 import { Button } from "zenith/components/ui/button"
