@@ -99,7 +99,7 @@ export function ContactSection() {
     "$50,000 - $100,000",
     "$100,000 - $250,000",
     "$250,000+",
-    "Let's discuss",
+    "Let&apos;s discuss",
   ]
 
   return (
@@ -111,7 +111,7 @@ export function ContactSection() {
             Get In Touch
           </Badge>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-gray-900">
-            Let's Build Something Amazing Together
+            Let&apos;s Build Something Amazing Together
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Ready to transform your business with cutting-edge technology? Our expert team is here to help you achieve
@@ -125,7 +125,7 @@ export function ContactSection() {
             <CardHeader>
               <CardTitle className="text-2xl text-center">Start Your Project</CardTitle>
               <p className="text-gray-600 text-center">
-                Fill out the form below and we'll get back to you within 24 hours.
+                Fill out the form below and we&apos;ll get back to you within 24 hours.
               </p>
             </CardHeader>
             <CardContent className="p-8">
@@ -134,7 +134,7 @@ export function ContactSection() {
                   <CheckCircle className="h-16 w-16 mx-auto text-green-600" />
                   <h3 className="text-2xl font-bold text-gray-900">Thank You!</h3>
                   <p className="text-gray-600">
-                    Your message has been sent successfully. We'll get back to you within 24 hours.
+                    Your message has been sent successfully. We&apos;ll get back to you within 24 hours.
                   </p>
                 </div>
               ) : (

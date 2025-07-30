@@ -117,7 +117,7 @@ export function TestimonialsSection() {
 
                 {/* Testimonial Text */}
                 <blockquote className="text-xl lg:text-2xl text-gray-700 leading-relaxed font-medium">
-                  "{testimonials[currentTestimonial].testimonial}"
+                  &quot;{testimonials[currentTestimonial].testimonial}&quot;
                 </blockquote>
 
                 {/* Project Info */}
@@ -198,7 +198,7 @@ export function TestimonialsSection() {
                     <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
                   ))}
                 </div>
-                <p className="text-gray-700 mb-4 line-clamp-3">"{testimonial.testimonial}"</p>
+                <p className="text-gray-700 mb-4 line-clamp-3">&quot;{testimonial.testimonial}&quot;</p>
                 <div className="flex items-center space-x-3">
                   <Image
                     src={testimonial.image || "/placeholder.svg"}

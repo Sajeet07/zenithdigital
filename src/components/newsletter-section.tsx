@@ -78,7 +78,7 @@ export function NewsletterSection() {
             <div className="space-y-4 py-8">
               <CheckCircle className="h-16 w-16 mx-auto text-green-400" />
               <h3 className="text-2xl font-bold">Welcome to Our Community!</h3>
-              <p className="text-blue-100">Thank you for subscribing. You'll receive our next newsletter soon.</p>
+              <p className="text-blue-100">Thank you for subscribing. You&apos;ll receive our next newsletter soon.</p>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="max-w-md mx-auto">

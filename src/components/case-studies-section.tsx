@@ -76,7 +76,7 @@ export function CaseStudiesSection() {
             Success Stories That Inspire
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Discover how we've helped businesses across industries achieve remarkable digital transformation results
+            Discover how we&apos;ve helped businesses across industries achieve remarkable digital transformation results
             through innovative technology solutions.
           </p>
         </div>

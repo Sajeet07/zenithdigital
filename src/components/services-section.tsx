@@ -7,7 +7,6 @@ import { Button } from "zenith/components/ui/button"
 import { Cloud, Brain, Smartphone, Shield, Code, BarChart3, Check, Zap } from "lucide-react"
 
 export function ServicesSection() {
-  const [hoveredService, setHoveredService] = useState<number | null>(null)
 
   const services = [
     {
@@ -85,8 +84,6 @@ export function ServicesSection() {
               <Card
                 key={index}
                 className="border-0 shadow-lg hover:shadow-2xl transition-all duration-500 group cursor-pointer overflow-hidden"
-                onMouseEnter={() => setHoveredService(index)}
-                onMouseLeave={() => setHoveredService(null)}
               >
                 <CardHeader className="relative">
                   <div
@@ -125,7 +122,7 @@ export function ServicesSection() {
             <Zap className="h-12 w-12 mx-auto text-yellow-400" />
             <h3 className="text-2xl lg:text-3xl font-bold">Ready to Transform Your Business?</h3>
             <p className="text-lg text-gray-300 leading-relaxed">
-              Let's discuss how our expert team can help you achieve your digital transformation goals with cutting-edge
+              Let&apos;s discuss how our expert team can help you achieve your digital transformation goals with cutting-edge
               technology solutions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
